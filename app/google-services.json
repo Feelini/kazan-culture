@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "878110585037",
+    "firebase_url": "https://kazan-e314c.firebaseio.com",
+    "project_id": "kazan-e314c",
+    "storage_bucket": "kazan-e314c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878110585037:android:962b9e86b6fe6839d23984",
+        "android_client_info": {
+          "package_name": "ru.balandina.kazan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878110585037-b9tpsmi5v84k6s7emhe9mtfsj6a5caic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.balandina.kazan",
+            "certificate_hash": "cd9074120846c8f810e9b9bc325b89d2edbbcc3a"
+          }
+        },
+        {
+          "client_id": "878110585037-umfpv23uto9dqm3d3slo7oor8pvudiud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRrxjhq-QgbOceh-3KETI_18Uc-WX_ckA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878110585037-umfpv23uto9dqm3d3slo7oor8pvudiud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

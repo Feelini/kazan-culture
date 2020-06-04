@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_map"
+        android:icon="@drawable/ic_map"
+        android:title="@string/open_map" />
+    <item
+        android:id="@+id/menu_kulture"
+        android:icon="@drawable/ic_find_in_page"
+        android:title="@string/kulture" />
+    <item
+        android:id="@+id/menu_top"
+        android:icon="@drawable/ic_star"
+        android:title="@string/top" />
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/ic_close"
+        android:title="@string/exit" />
+</menu>

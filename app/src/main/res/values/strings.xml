@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kazan</string>
+    <string name="nearbyMetroStationTitle">Ближайшее метро:</string>
+    <string name="routeTitle">Маршруты от центра города:</string>
+    <string name="hello">Добро пожаловать</string>
+    <string name="kulture">Культура Казани</string>
+    <string name="open_map">Открыть карту</string>
+    <string name="top">Топ-5</string>
+    <string name="exit">Выход</string>
+    <string name="kulture_title">Культура Казани</string>
+    <string name="top_title">Топ-5</string>
+    <string name="view_on_map">Посмотреть на карте</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/placeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="25dp"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/scroll"
+        android:textAllCaps="true"
+        tools:text="КАЗАНСКИЙ кремль" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/placeTitle"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/placeText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:text="Первые каменный Кремль был построен на этом месте во второй половине 16-го века Иваном Грозным. Долгое время он служил оборонной крепостью, здесь бушевали пожары, часть башен была неоднократно перестроена или реконструирована. Некоторые церкви и колокольни были уничтожены при советской власти. В настоящее время туристов привлекают многовековые архитектурные сооружения — именно здесь стоит таинственная башня Сююмбике, Тайницкая, Юго-Восточная и Юго-Западная башни. Работает несколько исторических и религиозных музеев, филиал Эрмитажа. Вход на территорию Кремля свободный, тут можно просто гулять, любуясь на архитектурные памятники и скульптуры." />
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
